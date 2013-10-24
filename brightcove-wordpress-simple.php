@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/Brightcodes/Brightcove-Wordpress
  * Description: Allows the easy inclusion of a Brightcove player
  * Version: 0.3
- * Author: Ben Clifford
+ * Author: misterben
  * Author URI: https://github.com/Brightcodes/Brightcove-Wordpress
  * License:GPL2
  * Usage: [bc]http://bcove.me/bbnvrhso[/bc]
