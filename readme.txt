@@ -42,33 +42,7 @@ Or override autostart like this:
 # Notes
 This will use the HTTP or HTTPS version of the publsihing code as approp
 
-#Usage
-
-First get a link to the video and player you want to use from the Video Cloud media module.
-
-* Select a video
-* In the **Quick video publish** box on the right, select a player
-* Under **Copy publishing code**, select **URL**
-* Copy the URL 
-
-In the post editor, add the the URL surrounded by `[bc]` and `[/bc]`, for example:
-
-    [bc]http://bcove.me/f8b43rfg[/bc]
-
-It doesn't have to be a bcove.me URL.) You can also use the URL of any page that has a Video Cloud player in its HTML, e.g.
-
-    [bc]http://www.brightcove.com[/bc]
-    
-The player publishing code found at the URL is used as-is. You can override the player width and/or height like this:
-
-    [bc width="240" height="135"]http://bcove.me/f8b43rfg[/bc]
-
-Or override autostart like this:
-
-    [bc autoStart="false"]http://bcove.me/f8b43rfg[/bc]
-
 == Installation ==
-
 
 1. Upload `brightcove-wordpress-simple.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -93,7 +67,9 @@ If the HTML at the URL does not have a standard Video Cloud player publishing co
 2. Post editor
 
 == Changelog ==
-Initial release
+
+= 0.4 =
+First release
 
 == Upgrade Notice ==
 Initial release
