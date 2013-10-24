@@ -14,7 +14,8 @@ Allows a Brightcove Video Cloud player to be easily embedded into a post by its 
 
 This allows a Brighcove Video Cloud player to be easily embedded by its player URL. It does not need a Video Cloud Media API key, so works with any Brightcove account edition.
 
-#Usage
+Usage
+-----
 
 First get a link to the video and player you want to use from the Video Cloud media module.
 
@@ -39,8 +40,10 @@ Or override autostart like this:
 
     [bc autoStart="false"]http://bcove.me/f8b43rfg[/bc]
 
-# Notes
-This will use the HTTP or HTTPS version of the publsihing code as approp
+Notes
+-----
+
+This will use the HTTP or HTTPS version of the publsihing code as appropriate, automatically.
 
 == Installation ==
 
