@@ -1,6 +1,5 @@
 === Plugin Name ===
 Contributors: mister-ben
-Donate link: http://example.com
 Tags: brightcove, video, embed, player
 Requires at least: 3.0.1
 Tested up to: 3.6.1
@@ -14,8 +13,6 @@ Allows a Brightcove Video Cloud player to be easily embedded into a post by its 
 
 This allows a Brighcove Video Cloud player to be easily embedded by its player URL. It does not need a Video Cloud Media API key, so works with any Brightcove account edition.
 
-Usage
------
 
 First get a link to the video and player you want to use from the Video Cloud media module.
 
@@ -28,7 +25,7 @@ In the post editor, add the the URL surrounded by `[bc]` and `[/bc]`, for exampl
 
     [bc]http://bcove.me/f8b43rfg[/bc]
 
-It doesn't have to be a bcove.me URL.) You can also use the URL of any page that has a Video Cloud player in its HTML, e.g.
+It doesn't have to be a bcove.me URL. You can also use a link.brightcove.com URL or the URL of any page that has a Video Cloud player in its HTML, e.g.
 
     [bc]http://www.brightcove.com[/bc]
     
@@ -40,14 +37,9 @@ Or override autostart like this:
 
     [bc autoStart="false"]http://bcove.me/f8b43rfg[/bc]
 
-Notes
------
-
-This will use the HTTP or HTTPS version of the publsihing code as appropriate, automatically.
-
 == Installation ==
 
-1. Upload `brightcove-wordpress-simple.php` to the `/wp-content/plugins/` directory
+1. Either use the automatic installation within wordpress, or upload `brightcove-wordpress-simple.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
@@ -62,7 +54,7 @@ Either the player URL from the studio, or any other URL that has a Video Cloud p
 
 = I used a URL with a player, but it doesn't work =
 
-If the HTML at the URL does not have a standard Video Cloud player publishing code in its HTML, this won't work. That might be because they use a Flash-only embed, an iframe, or create the player dynamically at runtime.
+If the HTML at the URL does not have a standard Video Cloud player publishing code in its HTML, this won't work. That might be because the player at that URL uses a Flash-only embed, an iframe, or is created dynamically at runtime (i.e. by javascript).
 
 == Screenshots ==
 
@@ -71,8 +63,11 @@ If the HTML at the URL does not have a standard Video Cloud player publishing co
 
 == Changelog ==
 
+= 0.5 =
+Fix for IE8
+
 = 0.4 =
 First release
 
 == Upgrade Notice ==
-Initial release
+Fix for Internet Explorer 8 added
