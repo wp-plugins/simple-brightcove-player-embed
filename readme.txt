@@ -54,7 +54,7 @@ Either the player URL from the studio, or any other URL that has a Video Cloud p
 
 = I used a URL with a player, but it doesn't work =
 
-If the HTML at the URL does not have a standard Video Cloud player publishing code in its HTML, this won't work. That might be because the player at that URL uses a Flash-only embed, an iframe, or is created dynamically at runtime (i.e. by javascript).
+If the HTML at the URL does not have a standard Video Cloud player publishing code in its HTML, this won't work. That might be because the player at that URL uses a Flash-only embed, an iframe, or is created dynamically at runtime.
 
 == Screenshots ==
 
