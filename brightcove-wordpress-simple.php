@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Simple Brightcove Player Embed
- * Plugin URI: https://github.com/Brightcodes/Brightcove-Wordpress
+ * Plugin URI: http://wordpress.org/plugins/simple-brightcove-player-embed/
  * Description: This allows a Brighcove Video Cloud video to be easily embedded by the URL you get from the studio. It does not need a Video Cloud Media API key, so works with any Brightcove account edition.
  * Version: 0.6
  * Author: mister-ben
- * Author URI: https://github.com/Brightcodes/Brightcove-Wordpress
+ * Author URI: http://wordpress.org/plugins/simple-brightcove-player-embed/
  * License:GPL2
  * Usage: [bc]http://bcove.me/bbnvrhso[/bc]
  *      [bc width="480" height="270"]http://bcove.me/bbnvrhso[/bc]
