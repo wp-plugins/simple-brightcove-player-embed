@@ -63,6 +63,12 @@ If the HTML at the URL does not have a standard Video Cloud player publishing co
 
 == Changelog ==
 
+= 0.8 =
+Using DOMDocument::saveXML instead of DOMDocument::saveHTML for PHP < 3.6 compatibility
+
+= 0.7 =
+Fixed deprecation notice
+
 = 0.6 =
 Tweaked IE8 fix and some additional fixes to video ID detection
 

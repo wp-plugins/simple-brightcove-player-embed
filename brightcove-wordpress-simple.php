@@ -3,7 +3,7 @@
  * Plugin Name: Simple Brightcove Player Embed
  * Plugin URI: http://wordpress.org/plugins/simple-brightcove-player-embed/
  * Description: This allows a Brighcove Video Cloud video to be easily embedded by the URL you get from the studio. It does not need a Video Cloud Media API key, so works with any Brightcove account edition.
- * Version: 0.7
+ * Version: 0.8
  * Author: mister-ben
  * Author URI: http://wordpress.org/plugins/simple-brightcove-player-embed/
  * License:GPL2
@@ -158,7 +158,7 @@ class BC_Shortcode {
 
     // Make sure the script gets written, and return HTML
     self::$add_script = true;
-    return "<!-- Brightcove Video -->\n" . self::$dom->saveHTML($object) . "\n" . $ie8Style;
+    return "<!-- Brightcove Video -->\n" . self::$dom->saveXML($object) . "\n" . $ie8Style;
   }
 
   static function register_script() {
