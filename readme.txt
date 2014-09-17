@@ -2,7 +2,7 @@
 Contributors: mister-ben
 Tags: brightcove, video, embed, player
 Requires at least: 3.0.1
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,8 +11,7 @@ Allows a Brightcove Video Cloud player to be easily embedded into a post by its 
 
 == Description ==
 
-This allows a Brighcove Video Cloud video to be easily embedded by its player URL. It does not need a Video Cloud Media API key, so works with any Brightcove account edition.
-
+This allows you to embed a Brighcove Video Cloud video player easily by using its player URL in a shortcode. It does not need a Video Cloud Media API key, so works with any Brightcove account edition. This is *not* a CMS integration that allows you to upload content to Video Cloud or retrieve a list of video data from your account.
 
 First get a link to the video and player you want to use from the Video Cloud media module.
 
