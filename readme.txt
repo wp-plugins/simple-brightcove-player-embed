@@ -11,7 +11,7 @@ Allows a Brightcove Video Cloud player to be easily embedded into a post by its 
 
 == Description ==
 
-This allows you to embed a Brighcove Video Cloud video player easily by using its player URL in a shortcode. It does not need a Video Cloud Media API key, so works with any Brightcove account edition. This is *not* a CMS integration that allows you to upload content to Video Cloud or retrieve a list of video data from your account.
+This allows you to embed a Brighcove Video Cloud video player easily by using its player URL in a shortcode. It does not need a Video Cloud Media API key, so works with any Brightcove account edition. This is *not* a CMS integration that allows you to upload, manage and browse content in your Video Cloud account.
 
 First get a link to the video and player you want to use from the Video Cloud media module.
 
