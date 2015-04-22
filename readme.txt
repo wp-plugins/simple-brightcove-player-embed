@@ -1,8 +1,8 @@
-=== Plugin Name ===
+=== Simple Brightcove Player Embed ===
 Contributors: mister-ben
 Tags: brightcove, video, embed, player
 Requires at least: 3.0.1
-Tested up to: 3.9
+Tested up to: 4.1.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,10 +11,13 @@ Allows a Brightcove Video Cloud player to be easily embedded into a post by its 
 
 == Description ==
 
-This allows a Brighcove Video Cloud video to be easily embedded by its player URL. It does not need a Video Cloud Media API key, so works with any Brightcove account edition.
+This allows you to embed a Brightcove Video Cloud smart player easily by using its player URL in a shortcode. It does not need a Video Cloud Media API key, so works with any Brightcove account edition.
 
+Note this is *not* a CMS integration that allows you to upload, manage and browse content in your Video Cloud account from within Wordpress.
 
-First get a link to the video and player you want to use from the Video Cloud media module.
+= How to use =
+
+First get a link to the video and player you want to use from the [Video Cloud media module](https://videocloud.brightcove.com/media).
 
 * Select a video
 * In the **Quick video publish** box on the right, select a player
@@ -55,6 +58,10 @@ Either the player URL from the studio, or any other URL that has a Video Cloud p
 = I used a URL with a player, but it doesn't work =
 
 If the HTML at the URL does not have a standard Video Cloud player publishing code in its HTML, this won't work. That might be because the player at that URL uses a Flash-only embed, an iframe, or is created dynamically at runtime.
+
+= Can I browse my videos in Wordpress's editor? =
+
+No. This is intented as a quick and easy way to embed a player by it's URL rather than as a full integration that would allow management of Video Cloud content from within Wordpress. There are other plugins in the directory that attempt to do that.
 
 == Screenshots ==
 
